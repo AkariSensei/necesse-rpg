@@ -118,19 +118,19 @@ Un coefficient par action viendra s'appliquer par-dessus (l'attaque lourde frapp
 Toutes dans `data/`, aucune en dur dans le moteur.
 
 | Constante | Valeur | Note |
-|---|---|---|
-| Paramètre d'armure | 50 | Dénominateur de la courbe de réduction |
-| Plancher de dégâts | 1 | |
-| Endurance max | à définir | |
-| Régénération d'endurance par tour | à définir | |
-| Coût — attaque légère | 1 | |
-| Coût — attaque lourde | 3 | |
-| Coût — esquive | 2 | |
-| Coût — soin d'urgence | 1 | |
-| Coût — fuite | 2 | |
-| Bonus d'esquive réussie | +25 % | Un tour, non cumulable |
-| Coefficient de dégâts — légère | à définir | |
-| Coefficient de dégâts — lourde | à définir | |
+|---|--------|---|
+| Paramètre d'armure | 50     | Dénominateur de la courbe de réduction |
+| Plancher de dégâts | 1      | |
+| Endurance max | 6      | |
+| Régénération d'endurance par tour | 2      | |
+| Coût — attaque légère | 1      | |
+| Coût — attaque lourde | 3      | |
+| Coût — esquive | 2      | |
+| Coût — soin d'urgence | 1      | |
+| Coût — fuite | 2      | |
+| Bonus d'esquive réussie | +25 %  | Un tour, non cumulable |
+| Coefficient de dégâts — légère | 1.0    | |
+| Coefficient de dégâts — lourde | 2.0    | |
 
 ---
 
