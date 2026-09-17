@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/**
+ * Jetons de design.
+ *
+ * Le jeu se lit de nuit, dans une forêt, à la lueur d'un feu : fond sombre et
+ * froid, texte couleur os, une seule braise pour le danger. Tout ce qui est
+ * chaud dans cette palette signale une perte.
+ */
+@theme {
+    --color-night: #0e1218;
+    --color-stone: #171d26;
+    --color-edge: #2a3341;
+    --color-bone: #e4ddcd;
+    --color-iron: #7d8899;
+    --color-ember: #c0553a;
+    --color-moss: #6d9464;
+    --color-gold: #b8912f;
+
+    /* Le journal se lit comme une chronique, l'interface reste neutre. */
+    --font-chronicle: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --font-ui: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+    background-color: var(--color-night);
+}
+
+body {
+    margin: 0;
+    color: var(--color-bone);
+    font-family: var(--font-ui);
+}
+
+/* Le focus reste toujours visible : on joue beaucoup au clavier. */
+:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
